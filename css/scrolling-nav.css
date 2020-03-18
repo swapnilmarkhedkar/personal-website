@@ -4,11 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 header {
-  padding: 156px 0 100px;
+  padding: 100px 0 100px;
 }
 
 section {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 #aboutImg{
@@ -150,7 +150,7 @@ button{
   }
 
   #internImg{
-	margin-left:10px;
+	/*margin-left:10px;*/
 	padding: 2px; 
 	max-width: 30%; 
 	max-height: 30%;

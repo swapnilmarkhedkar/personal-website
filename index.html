@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Swapnil Markhedkar</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+	<div class="container">
+	  <a class="navbar-brand js-scroll-trigger" href="#page-top">Swapnil Markhedkar</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+			<a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link js-scroll-trigger" href="#about">About</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link js-scroll-trigger" href="#services">Experience</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link js-scroll-trigger" href="pdf/swapnil.pdf">Resume</a>
+		  </li>
+		</ul>
+	  </div>
+	</div>
+  </nav>
+
+  <!-- <header>
+	<div class="container text-center">
+
+	</div>
+  </header> -->
+
+  <div class="myCanvas">
+	<canvas style="z-index:1"></canvas>
+	<!-- <input type="button" style="z-index:2; position:absolute; top:100; left:100" value="test"/> -->
+
+	<script type="text/javascript" src="js/canvas.js">
+	</script>
+	<script type="text/javascript">
+	  var $myDiv = $('<div id="wrapper"></div>');
+	  var $welcome = $('<h3>Hey, I am </h3>').attr({
+		style: 'position:absolute; top:39%; zindex:2'
+	  });
+
+	  // var $myName = $('<h1>Swapnil Markhedkar</h1>').attr({
+	  //   // color: 'white',
+	  //   style: 'position:absolute; top:34.5%;left:28%; zindex:2'
+	  // });
+
+	  var $myName = $('<h1>Swapnil</h1>').attr({
+		color: 'white',
+		style: 'position:absolute; top:44%; z-index:2;'
+	  })
+	  
+	  var $aEle = $('<a class="nav-link js-scroll-trigger" href="#about"></a>').attr({
+		style: 'position:absolute; zindex:3;top:55%;'
+	  });
+
+	  var $testButton = $('<input/>').attr({
+		  type: 'button',
+		  name: 'btn1',
+		  value: 'Find Out More',
+		  id: 'testButton',
+		  // text-align:center,
+		  // style: 'position:absolute; top:52%; left:30%; zindex:3; background-color: #FF6424;color: white;padding: 14px 20px;margin: 8px 0; border: none; cursor: pointer;'
+		   style: 'background-color: #FF6424; color: white;padding: 10px 20px;margin: 8px 0; border: none; cursor: pointer;'
+	  });
+	  $('body').append($myDiv);
+
+	  // $($myDiv).append($testButton);
+	  $($myDiv).append($myName);
+	  $($myDiv).append($welcome);
+	  $($myDiv).append($aEle);
+	  $($aEle).append($testButton);
+
+
+
+	  // $('body').append($myName);
+	  // $('body').append($welcome);
+	  // $('body').text($("h1").text("Hello"));
+	  // var $newdiv1 = $("<h1 style='position:absolute; top:400px;left:400px; zindex:2'>Hello</h1>" );
+	  // $(body).append( $newdiv1 );
+	  // $(document).on("click", "#testButton", function() {
+	  //     document.location.href = "#about";
+	  // });
+	</script>
+  </div>
+
+  <section id="about">
+	<div class="container">
+		<div class="col-lg-8 mx-auto">
+		 
+		  <div class="row">
+	        <div class="column" style="background-color:#aaa;">
+	          <img src="images/aboutSmall.jpg" alt="Swapnil" id="aboutImg">
+	        </div>
+	        <div class="column" style="background-color:#ffffff;">
+	          <br>
+	          <br>
+	          <br>
+	          <h2 style="align-items: center; justify-content: center; display: flex; font-size: 40px;"><b>About Me</b></h2>
+	          <br>
+	          <p style="margin-left: 15px;">I'm a pre-final year Computer Engineering student at Pune Institute of Computer Technology, Pune.</p>
+
+	          <div class="row">
+	          <ul>
+            	<li class="d-flex">
+		          	<div class="column left">
+	            		<!-- <b>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b> -->
+	            		<b>Name:</b>         
+	           		</div>	         
+		          	<div class="column right">
+	            		<span>Swapnil Markhedkar</span>
+	            	</div>
+            	</li>
+
+            	<li class="d-flex">
+		          	<div class="column left">
+	            		<!-- <b>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b> -->
+	            		<b>Date of Birth:</b>         
+	           		</div>	         
+		          	<div class="column right">
+	            		<span>November 22, 1997</span>
+	            	</div>
+            	</li>
+
+            	<li class="d-flex">
+		          	<div class="column left">
+	            		<!-- <b>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b> -->
+	            		<b>Address:</b>         
+	           		</div>	         
+		          	<div class="column right">
+	            		<span>Pune | Mumbai</span>
+	            	</div>
+            	</li>
+
+            	<li class="d-flex">
+		          	<div class="column left">
+	            		<b>Email:</b>         
+	           		</div>	         
+		          	<div class="column right">
+	            		<span>swapnilmarkhedkar@gmail.com</span>
+	            	</div>
+            	</li>
+
+            	<li class="d-flex">
+		          	<div class="column left">
+	            		<b>Phone:</b>         
+	           		</div>	         
+		          	<div class="column right">
+	            		<span>+91-9029595181</span>
+	            	</div>
+            	</li>
+
+	          </ul>
+	         </div>
+	        <!--   <br>
+	          <br>
+	          <br>
+	          <br> -->
+
+        	<div class="logos">
+            <!-- <span class="number" data-number="120">0</span> -->
+            <!-- <span>Project complete</span> -->
+	            <!-- <span> -->
+		            <a href="https://www.linkedin.com/in/swapnilmarkhedkar/"><img id="logoImg" src="images/linkedin.png" alt="github"/></a>&nbsp;&nbsp;
+		            <a href="https://github.com/swapnilmarkhedkar"><img id="logoImg" src="images/github2.png" alt="github"/></a>&nbsp;&nbsp;
+		            <a href="https://www.codechef.com/users/swapmarkh"><img id="logoImg" src="images/codechef.jpeg" alt="github"/></a>
+		        <!-- </span> -->
+            </div>
+	          
+	          <!-- <div class="logos">
+	          	<span><a href>Resume</a></span>
+	          </div>
+ -->
+	        </div>
+	      </div> 
+		
+
+		<!--  <div class="row">
+        <div class="column" style="background-color:#aaa;">
+          <img src="images/asbout.jpg" alt="Italian Trulli">
+        </div>
+        <div class="column" style="background-color:#bbb;">
+          <h2>Column 2</h2>
+          <p>Some text..</p>
+        </div>
+      </div>  -->
+
+		</div>
+	  </div>
+  </section>
+
+  <section id="services" class="bg-light">
+	<div class="container">
+	  <div class="row">
+		<div class="col-lg-8 mx-auto">
+		  <h2>Internships</h2>
+		  <br>
+		<!-- </div> -->
+	    <div class="card" style="max-width:100%">
+		  <div class="row no-gutters">
+			<div class="col-md-2">
+			  <img src="images/susthitsoft.png" class="card-img" alt="..." id="internImg">
+			</div>
+			<div class="col-md-9">
+			<div class="card-body">
+				<h5 class="card-title">Susthitsoft Technologies - Associate Software Developer</h5>
+				<p class="card-text">Developed a Backend-as-a-Service (BaaS) that facilitated creation of a structured database</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<br>
+		<div class="card" style="max-width:100%">
+		  <div class="row no-gutters">
+			<div class="col-md-2">
+			  <img src="images/kanchan.jpeg" class="card-img" alt="..." id="internImg">
+			</div>
+			<div class="col-md-10">
+			<div class="card-body">
+				<h5 class="card-title">The Kanchan Foundation - Volunteer</h5>
+				<p class="card-text">Volunteered at NGO focused at providing education to less privileged children.</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<br>
+		<br>
+		<h2>Projects</h2>
+		<br>
+		  <ul>
+			<li style="font-size: 1.25rem;"><b>Groundwater Management Tool&nbsp;</b><a href="https://github.com/Hyperion101010/monitor-water">
+				<img id="projectImg" src="images/github2.png" alt="github" />
+			</a></li>
+			Worked on Server-side using NodeJS and MongoDB in the Smart India Hackathon 2019. The tool
+			helped in analyzing, comparing and predicting groundwater usage for a specific region across the
+			country.
+			<li style="font-size: 1.25rem;"><b>Senior Citizen Care&nbsp;</b><a href="https://github.com/VaticanCameos99/SDL-project-">
+				<img id="projectImg" src="images/github2.png" alt="github"/></a></li>
+			Created an app that schedules timely alarms for medicines as well as reminders for doctor’s
+			appointment. Added emergency panel to quickly contact family members and caretakers.
+		  </ul>
+	  </div>
+	 </div>  
+	</div>
+  </section>
+
+<!--   <section id="contact">
+	<div class="container">
+	  <div class="row">
+		<div class="col-lg-8 mx-auto">
+		  <h2>Contact us</h2>
+		  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+		</div>
+	  </div>
+	</div>
+  </section> -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+	<div class="container">
+	  <p class="m-0 text-center text-white">Copyright &copy; Swapnil Markhedkar 2020</p>
+	</div>
+	<!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>

@@ -149,6 +149,14 @@ button{
     width: 100%;
   }
 
+  .left{
+    width: 32%;
+  }
+
+  .right{
+  	width: 68%;
+  }
+
   #internImg{
 	/*margin-left:10px;*/
 	padding: 2px; 
@@ -161,4 +169,5 @@ button{
 	height: 5%;
   }
 }
+
 

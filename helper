@@ -1,0 +1,5 @@
+sudo chown -R $USER:$USER /var/www/swapnilmarkhedkar.com/html/
+sudo chmod -R 755 /var/www/swapnilmarkhedkar.com/
+
+sudo chown -R $USER:$USER /personal-website
+sudo chmod -R 755 /etc/nginx/ssl/

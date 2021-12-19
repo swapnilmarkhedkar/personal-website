@@ -9,7 +9,7 @@ Fork and clone to your machine. Make the necessary changes. If you want a better
 #### Deploy to cloud service
 I have chosen AWS EC2 (Ubuntu 20, t2.micro), but feel free to choose any.
 
-* Install apache2 (httpd) and follow the instructions: https://ubuntu.com/tutorials/install-and-configure-apache#2-installing-apache
+* Install apache2 (httpd) and follow the [instructions](https://ubuntu.com/tutorials/install-and-configure-apache#2-installing-apache)
 * Clone repo to ``` /var/www/html/ ``` you should now be able to access it over the public IP over http port 80
 * Register an Elastic IP to ensure virtual IP stays constant
 

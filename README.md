@@ -1,7 +1,5 @@
 # personal-website
 
-### Live link - https://swapnilmarkhedkar.com/
-
 ## Setup one for yourself:
 
 Fork and clone to your machine. Make the necessary changes. If you want a better format (such as JSON) do raise a pull request.
